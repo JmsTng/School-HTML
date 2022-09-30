@@ -31,24 +31,24 @@ ul li {
 }
 
 #windowbar {
-  height: 1.5em;
-  background-color: #d9d9d9;
-  border-bottom: #c8c8c8 1px solid;
-  border-top-left-radius: 0.5em;
-  border-top-right-radius: 0.5em;
-  vertical-align: middle;
-  text-align: left;
+    height: 1.5em;
+    background-color: #d9d9d9;
+    border-bottom: #c8c8c8 1px solid;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    vertical-align: middle;
+    text-align: left;
 }
 
 #windowbar > button {
-  display: inline-block;
-  margin-top: 5px;
-  width: 1em;
-  height: 1.1em;
-  border-radius: 50%;
-  border: #c8c8c8 1px solid;
+    display: inline-block;
+    margin-top: 5px;
+    width: 1em;
+    height: 1.1em;
+    border-radius: 50%;
+    border: #c8c8c8 1px solid;
 }
 
 #r {
-  margin-left: 5px;
+    margin-left: 5px;
 }
