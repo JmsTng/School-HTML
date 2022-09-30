@@ -6,24 +6,11 @@
   background-position: bottom;
 }
 
-#title:hover {
-  animation: box forwards 3s;
+a {
+  text-decoration: none;
+  color: #8f8f8f;
 }
 
-@keyframes box {
-  0% {
-    border: none;
-  }
-  25% {
-    border-bottom: #000000 1px solid;
-  }
-  50% {
-    border-right: #000000 1px solid;
-  }
-  75% {
-    border-top: #000000 1px solid;
-  }
-  100% {
-    border-left: #000000 1px solid;
-  }
+a:hover {
+  color: #404040;
 }
