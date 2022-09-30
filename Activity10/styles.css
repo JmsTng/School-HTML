@@ -1,0 +1,7 @@
+#title {
+  display: inline-block;
+  background-image: linear-gradient(90deg, #000000, #ffffff);
+  background-size: 100% 3px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
