@@ -3,8 +3,10 @@
 :root {
     --back: #101011;
     --back-up: #404044;
+    --light: #909090;
     --fore: #e2e2e2;
-    --link: #7d80da /*#F45B69*/;
+    --head-link: #7d80da;
+    --link: #f45b69;
 }
 
 body {
@@ -12,6 +14,10 @@ body {
     background-color: var(--back);
     color: var(--fore);
     font-family: 'Rubik', sans-serif;
+}
+
+a {
+    color: var(--link);
 }
 
 .nav {
@@ -27,14 +33,14 @@ body {
 }
 
 .nav .links a {
-    color: var(--link);
     padding-left: .5em;
+    color: var(--head-link);
 }
 
 .header {
     text-align: center;
     vertical-align: middle;
-    background-image: url("assets/head_bk.jpg");
+    background-image: url("assets/imgs/head_bk.jpg");
     padding: 4em;
 }
 
@@ -44,10 +50,21 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-.about,
-.contact {
+.info {
     background-color: var(--back-up);
     border-radius: 1rem;
     margin: .8em;
     padding: 1em 2em;
+}
+
+table {
+    border-collapse: collapse;
+
+}
+
+td,
+th {
+    padding: 1vmin;
+    border: var(--light) solid .1em;
+    width: 10em;
 }
