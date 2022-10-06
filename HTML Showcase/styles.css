@@ -4,6 +4,7 @@
     --back: #101011;
     --back-up: #404044;
     --fore: #e2e2e2;
+    --link: #7d80da /*#F45B69*/;
 }
 
 body {
@@ -11,6 +12,23 @@ body {
     background-color: var(--back);
     color: var(--fore);
     font-family: 'Rubik', sans-serif;
+}
+
+.nav {
+    padding: 1.2em 1em;
+}
+
+.nav h2 {
+    display: inline;
+}
+
+.nav .links {
+    float: right;
+}
+
+.nav .links a {
+    color: var(--link);
+    padding-left: .5em;
 }
 
 .header {
