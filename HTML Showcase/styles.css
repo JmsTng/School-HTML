@@ -68,3 +68,27 @@ th {
     border: var(--light) solid .1em;
     width: 10em;
 }
+
+#deltagon,
+#switchshow,
+#cldlib,
+#newyear {
+    background-size: cover;
+    background-position: center;
+}
+
+#deltagon {
+    background-image: url("assets/imgs/deltagon.png");
+}
+
+#switchshow {
+    background-image: url("assets/imgs/switch.png");
+}
+
+#cldlib {
+    background-image: url("assets/imgs/cld.png");
+}
+
+#newyear {
+    background-image: url("assets/imgs/clock.png");
+}
