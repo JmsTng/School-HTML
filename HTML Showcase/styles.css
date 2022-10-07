@@ -92,3 +92,25 @@ th {
 #newyear {
     background-image: url("assets/imgs/clock.png");
 }
+
+.projects2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.projects2 span {
+    display: inline-block;
+    background-color: var(--light);
+    padding: 2em;
+    border-radius: 1em;
+    margin: 1em;
+}
+
+.projects2 span ul {
+    background-position: center;
+    background-size: cover;
+    padding-top: .5em;
+    padding-bottom: 4em;
+    border-radius: 1em;
+}
