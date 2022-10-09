@@ -20,6 +20,13 @@ a {
     color: var(--link);
 }
 
+hr {
+    border: none;
+    border-radius: 2px;
+    height: 4px;
+    background-color: var(--fore);
+}
+
 .nav {
     padding: 1.2em 1em;
 }
@@ -66,51 +73,9 @@ td,
 th {
     padding: 1vmin;
     border: var(--light) solid .1em;
-    width: 10em;
 }
 
-#deltagon,
-#switchshow,
-#cldlib,
-#newyear {
+.projects tr {
     background-size: cover;
     background-position: center;
-}
-
-#deltagon {
-    background-image: url("assets/imgs/deltagon.png");
-}
-
-#switchshow {
-    background-image: url("assets/imgs/switch.png");
-}
-
-#cldlib {
-    background-image: url("assets/imgs/cld.png");
-}
-
-#newyear {
-    background-image: url("assets/imgs/clock.png");
-}
-
-.projects2 {
-    display: flex;
-    justify-content: space-around;
-    align-items: stretch;
-}
-
-.projects2 span {
-    display: inline-block;
-    background-color: var(--light);
-    padding: 2em;
-    border-radius: 1em;
-    margin: 1em;
-}
-
-.projects2 span ul {
-    background-position: center;
-    background-size: cover;
-    padding-top: .5em;
-    padding-bottom: 4em;
-    border-radius: 1em;
 }
