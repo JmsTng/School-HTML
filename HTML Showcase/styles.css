@@ -64,6 +64,19 @@ hr {
     padding: 1em 2em;
 }
 
+.contact {
+    text-align: center;
+}
+
+button,
+input {
+    width: 10vw;
+    height: 3vh;
+    border-radius: .5vh;
+    border: none;
+    text-align: center;
+}
+
 .hide {
     display: none;
 }
