@@ -23,8 +23,18 @@
         <p>Hi! My name is James, and I'm a Grade 9 student creating this for the course ICS201-13. Most of my hobbies revolve around technology, especially software.<br>I also have my own GitHub account under the name <a href="https://github.com/JmsTng">@JmsTng</a>, to which I sporadically post things.</p>
     </div>
     <div class="info contact">
-        <h3>Contact Me</h3>
-        <a href="mailto:james.tung@student.tdsb.on.ca">mail</a>
+        <button type="button" name="button" onclick="toggle()">toggle</button>
+        <div class="outgoing">
+            <h3>Contact Me</h3>
+            <a href="mailto:james.tung+website@student.tdsb.on.ca?subject=Let's%20get%20in%20touch%21">Send me an email!</a>
+        </div>
+        <div class="incoming hide">
+            <h3>Subscribe</h3>
+            <form class="contform" action="index.html" method="post">
+                <input type="text" name="email" value="" placeholder="name@example.com">
+            </form>
+        </div>
     </div>
+    <script src="script.js" charset="utf-8"></script>
 </body>
 </html>

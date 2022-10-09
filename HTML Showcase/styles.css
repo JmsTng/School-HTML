@@ -3,7 +3,7 @@
 :root {
     --back: #101011;
     --back-up: #404044;
-    --light: #909090;
+    --light: #808080;
     --fore: #e2e2e2;
     --head-link: #7d80da;
     --link: #f45b69;
@@ -22,8 +22,8 @@ a {
 
 hr {
     border: none;
-    border-radius: 2px;
-    height: 4px;
+    border-radius: 1px;
+    height: 2px;
     background-color: var(--fore);
 }
 
@@ -62,6 +62,10 @@ hr {
     border-radius: 1rem;
     margin: .8em;
     padding: 1em 2em;
+}
+
+.hide {
+    display: none;
 }
 
 table {
