@@ -19,8 +19,14 @@
         <h1>James Tung</h1>
     </div>
     <div class="info about">
-        <h3>About Me</h3>
-        <p>Hi! My name is James, and I'm a Grade 9 student creating this for the course ICS201-13. Most of my hobbies revolve around technology, especially software.<br>I also have my own GitHub account under the name <a href="https://github.com/JmsTng">@JmsTng</a>, to which I sporadically post things.</p>
+        <div>
+            <h3>About Me</h3>
+            <p>Hi! My name is James, and I'm a Grade 9 student creating this for the course ICS201-13. Most of my hobbies revolve around technology, especially software.<br>I also have my own GitHub account under the name <a href="https://github.com/JmsTng">@JmsTng</a>, to which I sporadically post things.</p>
+        </div>
+        <div class="github">
+            <github-card data-user="JmsTng" data-theme="dark"></github-card>
+            <p style="transform-origin:10px 15px;transform:rotate(90deg);position:absolute;left:95%;">My GitHub Account</p>
+        </div>
     </div>
     <div class="info contact">
         <button type="button" id="tog" onclick="toggle()">Subscribe to my newsletter instead?</button>
@@ -35,6 +41,7 @@
             </form>
         </div>
     </div>
+    <script type="module" src="https://unpkg.com/@rocktimsaikia/github-card@latest?module"></script>
     <script src="script.js" charset="utf-8"></script>
 </body>
 </html>

@@ -64,6 +64,15 @@ hr {
     padding: 1em 2em;
 }
 
+.about {
+    display: flex;
+    justify-content: space-between;
+}
+
+.github {
+    display: flex;
+}
+
 .contact {
     text-align: center;
 }
