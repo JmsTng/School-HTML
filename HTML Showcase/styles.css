@@ -109,3 +109,12 @@ th {
     background-size: cover;
     background-position: center;
 }
+
+.pics {
+    display: grid;
+}
+
+.pic {
+    width: 50%;
+    border-radius: .5em;
+}
