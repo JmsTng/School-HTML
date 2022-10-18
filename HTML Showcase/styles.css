@@ -111,10 +111,23 @@ th {
 }
 
 .pics {
+    --cols: 5;
+    --height: 300px;
     display: grid;
+    grid-template-columns: repeat(var(--cols), 1fr);
+    grid-auto-rows: var(--height);
 }
 
 .pic {
-    width: 50%;
+    width: 100%;
+    height: 100%;
     border-radius: .5em;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 1024px) {
+    .pics {
+        --cols: 2;
+        --height: 200px;
+    }
 }
