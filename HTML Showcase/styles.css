@@ -57,6 +57,10 @@ hr {
     font-family: 'Raleway', sans-serif;
 }
 
+.tabs {
+    align-content: left;
+}
+
 .info {
     background-color: var(--back-up);
     border-radius: 1rem;
@@ -79,8 +83,8 @@ hr {
 
 button,
 input {
-    width: 10vw;
-    height: 3vh;
+    width: 20em;
+    height: 3em;
     border-radius: .5vh;
     border: none;
     text-align: center;

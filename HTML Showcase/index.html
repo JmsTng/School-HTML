@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="tabs.css">
     <title>James Tung</title>
 </head>
 <body>
@@ -18,15 +19,43 @@
     <div class="header">
         <h1>James Tung</h1>
     </div>
+    <!-- <div class="info about">
+        <div>
+            <h3>About Me</h3>
+            <p>Hi! My name is James, and I'm a Grade 9 student creating this for the course ICS201-13. Most of my hobbies revolve around technology, especially software.<br>I also have my own GitHub account under the name <a href="https://github.com/JmsTng">@JmsTng</a>, to which I sporadically post things.</p>
+        </div>
+        <div class="github">
+            <p style="transform-origin: 0 0;transform:rotate(-90deg);position:absolute;right:31.5vw;top:50em">My GitHub Account</p>
+            <github-card data-user="JmsTng" data-theme="dark"></github-card>
+        </div>
+        <div>
+            <h3>Contents on this site:</h3>
+        </div>
+    </div> -->
+    <span class="tabs">
+        <input type="radio" name="ts" id="t1">
+        <input type="radio" name="ts" id="t2">
+        <input type="radio" name="ts" id="t3">
+        <input type="radio" name="ts" id="t4">
+    </span>
     <div class="info about">
         <div>
             <h3>About Me</h3>
+<<<<<<< HEAD
             <p>Hi! My name is James, and I'm a Grade 9 student creating this for the course ICS201-13. Most of my hobbies revolve around technology, especially software.<br>I also have my own GitHub account under the name <a href="https://github.com/JmsTng">@JmsTng</a>, to which I sporadically post things.</p>
         </div>
         <div class="github">
             <github-card data-user="JmsTng" data-theme="dark"></github-card>
             <p style="transform-origin:10px 15px;transform:rotate(90deg);">My GitHub Account</p>
         </div>
+=======
+            <p>Hi! My name is James, and I'm a Grade 9 student creating this website for the course ICS201-13. Most of my hobbies revolve around technology, especially software.<br>I also have my own GitHub account under the name <a href="https://github.com/JmsTng">@JmsTng</a>, to which I sporadically post cool things.</p>
+        </div>
+        <div class="github">
+            <github-card data-user="JmsTng" data-theme="dark"></github-card>
+        </div>
+        <div></div>
+>>>>>>> c6be190e1a7e31fdfde4a77e7c26c5549d68a5d3
     </div>
     <div class="info contact">
         <button type="button" id="tog" onclick="toggle()">Subscribe to my newsletter instead?</button>
@@ -38,6 +67,7 @@
             <h3>Subscribe</h3>
             <form class="contform" action="index.html" method="post">
                 <input type="text" name="email" value="" placeholder="name@example.com">
+                <input type="submit" value="Submit">
             </form>
         </div>
     </div>
