@@ -44,6 +44,10 @@ hr {
     color: var(--head-link);
 }
 
+a:hover {
+    animation: hover 1s ease-out forwards;
+}
+
 .header {
     text-align: center;
     vertical-align: middle;
@@ -149,5 +153,11 @@ th {
     
     #m {
         grid-column: span 1;
+    }
+}
+
+@keyframes hover {
+    100% {
+        transform:scale(1.1, 1.1);
     }
 }
