@@ -126,6 +126,10 @@ th {
     object-fit: cover;
 }
 
+#m {
+    grid-column: span 2;
+}
+
 @media screen and (max-width: 1920px) {
     .pics {
         --height: 300px;
@@ -141,5 +145,9 @@ th {
 @media screen and (max-width: 1024px) {
     .pics {
         --cols: 2;
+    }
+    
+    #m {
+        grid-column: span 1;
     }
 }
