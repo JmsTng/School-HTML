@@ -42,10 +42,12 @@ hr {
 .nav .links a {
     padding-left: .5em;
     color: var(--head-link);
+    display: inline-block;
+    transform-origin: center;
 }
 
 a:hover {
-    animation: hover 1s ease-out forwards;
+    animation: b 1s ease-out forwards;
 }
 
 .header {
@@ -156,8 +158,8 @@ th {
     }
 }
 
-@keyframes hover {
+@keyframes b {
     100% {
-        transform: scale(5);
+        transform: scale(1.1) rotateZ(5deg);
     }
 }
