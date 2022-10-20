@@ -150,7 +150,7 @@ th {
     .pics {
         --cols: 2;
     }
-    
+
     #m {
         grid-column: span 1;
     }
@@ -158,6 +158,6 @@ th {
 
 @keyframes hover {
     100% {
-        transform:scale(1.1, 1.1);
+        transform: scale(5);
     }
 }
