@@ -132,6 +132,10 @@ th {
     object-fit: cover;
 }
 
+.pic:hover {
+    animation: zoom 1s ease-out forwards;
+}
+
 #m {
     grid-column: span 2;
 }
@@ -159,7 +163,13 @@ th {
 }
 
 @keyframes b {
-    100% {
+    to {
         transform: scale(1.1) rotateZ(5deg);
+    }
+}
+
+@keyframes zoom {
+    to {
+        transform: scale(1.05);
     }
 }
