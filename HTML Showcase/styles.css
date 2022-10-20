@@ -42,6 +42,12 @@ hr {
 .nav .links a {
     padding-left: .5em;
     color: var(--head-link);
+    display: inline-block;
+    transform-origin: center;
+}
+
+a:hover {
+    animation: b 1s ease-out forwards;
 }
 
 .header {
@@ -108,4 +114,62 @@ th {
 .projects tr {
     background-size: cover;
     background-position: center;
+}
+
+.pics {
+    --cols: 3;
+    --height: 350px;
+    display: grid;
+    grid-template-columns: repeat(var(--cols), 1fr);
+    grid-auto-rows: var(--height);
+    gap: .5em;
+}
+
+.pic {
+    width: 100%;
+    height: 100%;
+    border-radius: .5em;
+    object-fit: cover;
+}
+
+.pic:hover {
+    animation: zoom 1s ease-out forwards;
+}
+
+#m {
+    grid-column: span 2;
+}
+
+@media screen and (max-width: 1920px) {
+    .pics {
+        --height: 300px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .pics {
+        --height: 200px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .pics {
+        --cols: 2;
+    }
+
+    #m {
+        grid-column: span 1;
+    }
+}
+
+@keyframes b {
+    to {
+        transform: scale(1.1) rotateZ(5deg);
+    }
+}
+
+@keyframes zoom {
+    to {
+        transform: scale(1.05);
+    }
 }

@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="tabs.css">
     <title>James Tung</title>
 </head>
 <body>
@@ -13,40 +12,40 @@
         <h2>JT</h2>
         <span class="links">
             <a href="./">Home</a>
-            <a href="./projects.html">Projects</a>
+            <a href="./projects">Projects</a>
         </span>
     </div>
     <div class="header">
         <h1>James Tung</h1>
     </div>
-    <!-- <div class="info about">
-        <div>
-            <h3>About Me</h3>
-            <p>Hi! My name is James, and I'm a Grade 9 student creating this for the course ICS201-13. Most of my hobbies revolve around technology, especially software.<br>I also have my own GitHub account under the name <a href="https://github.com/JmsTng">@JmsTng</a>, to which I sporadically post things.</p>
-        </div>
-        <div class="github">
-            <p style="transform-origin: 0 0;transform:rotate(-90deg);position:absolute;right:31.5vw;top:50em">My GitHub Account</p>
-            <github-card data-user="JmsTng" data-theme="dark"></github-card>
-        </div>
-        <div>
-            <h3>Contents on this site:</h3>
-        </div>
-    </div> -->
-    <span class="tabs">
-        <input type="radio" name="ts" id="t1">
-        <input type="radio" name="ts" id="t2">
-        <input type="radio" name="ts" id="t3">
-        <input type="radio" name="ts" id="t4">
-    </span>
     <div class="info about">
         <div>
             <h3>About Me</h3>
             <p>Hi! My name is James, and I'm a Grade 9 student creating this website for the course ICS201-13. Most of my hobbies revolve around technology, especially software.<br>I also have my own GitHub account under the name <a href="https://github.com/JmsTng">@JmsTng</a>, to which I sporadically post cool things.</p>
         </div>
-        <div class="github">
+        <!-- <div class="github">
             <github-card data-user="JmsTng" data-theme="dark"></github-card>
+        </div> -->
+    </div>
+    <div class="info">
+        <h3>Photography + Pictures I took</h3>
+        <div class="pics">
+            <img src="./assets/imgs/d.jpg" alt="" class="pic" id="d">
+            <img src="./assets/imgs/g.jpg" alt="" class="pic" id="g">
+            <img src="./assets/imgs/h.jpg" alt="" class="pic" id="h">
+            <img src="./assets/imgs/i.jpg" alt="" class="pic" id="i">
+            <img src="./assets/imgs/j.jpg" alt="" class="pic" id="j">
+            <img src="./assets/imgs/l.jpg" alt="" class="pic" id="l">
+            <img src="./assets/imgs/k.jpg" alt="" class="pic" id="k" style="grid-column: span 2">
+            <img src="./assets/imgs/n.jpg" alt="" class="pic" id="n">
+            <img src="./assets/imgs/m.jpg" alt="" class="pic" id="m">
+            <img src="./assets/imgs/o.jpg" alt="" class="pic" id="o">
+            <img src="./assets/imgs/a.png" alt="" class="pic" id="a">
+            <img src="./assets/imgs/c.png" alt="" class="pic" id="c" style="grid-row: span 2; grid-column: span 2;">
+            <img src="./assets/imgs/f.jpg" alt="" class="pic" id="f" style="grid-row: span 2">
+            <img src="./assets/imgs/b.png" alt="" class="pic" id="b">
+            <img src="./assets/imgs/e.jpg" alt="" class="pic" id="e">
         </div>
-        <div></div>
     </div>
     <div class="info contact">
         <button type="button" id="tog" onclick="toggle()">Subscribe to my newsletter instead?</button>
@@ -64,5 +63,6 @@
     </div>
     <script type="module" src="https://unpkg.com/@rocktimsaikia/github-card@latest?module"></script>
     <script src="script.js" charset="utf-8"></script>
+    <div class="info">This website was sponsored by <a href="https://github.com/imapotatoes11">Kevin</a>. Here's his site:<br><iframe src="https://imapotatoes11.github.io/vigilant-telegram" width="100%" height="1000vh"></iframe></div>
 </body>
 </html>
